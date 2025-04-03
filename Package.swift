@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "CloudXAdManagerAdapter",
             url: "https://github.com/cloudx-xenoss/CloudXiOSAdManagerAdapter/releases/download/1.0.0/CloudXAdManagerAdapter.xcframework.zip",
-            checksum: "REPLACE_WITH_ACTUAL_CHECKSUM"
+            checksum: "631524ae4f2ae1d4a83ed00db61a4367d8f392f20ed31b2f263f824779a5c666"
         )
     ]
 )

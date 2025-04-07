@@ -23,14 +23,19 @@ Add the following to your project’s Other Linker Flags in Build Settings:
 ✅ **2. App Transport Security (ATS)**  
 If your app communicates with non-HTTPS servers for ads (less common), update your Info.plist to allow exceptions:  
 ```xml
-<key>NSAppTransportSecurity</key> <dict> <key>NSAllowsArbitraryLoads</key> <true/> </dict>
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
 ```
 ⚠️ *Note: Only do this if absolutely necessary.*
 
 ✅ **3. NSUserTrackingUsageDescription (iOS 14+)**  
 If your app targets iOS 14+, and you want access to the IDFA, you must add a usage description in your Info.plist:
 ```xml
-<key>NSUserTrackingUsageDescription</key> <string>This identifier will be used to deliver personalized ads to you.</string>
+<key>NSUserTrackingUsageDescription</key>
+<string>This identifier will be used to deliver personalized ads to you.</string>
 ```
 
 ✅ **4. Minimum Deployment Target**  

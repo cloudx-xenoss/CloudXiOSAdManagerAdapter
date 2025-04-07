@@ -5,16 +5,19 @@ Google Ad Manager adapter for CloudX Core iOS SDK
 
 ## 🍫 Cocoapods  
 `pod CloudXAdManagerAdapter`
+- Installing via Cocoapods should handle the porject configuration, but if you run into any issues building, running, or seeing ads, check the Project Configuration / Troubleshooting steps below
 
 ## 📦 Swift Package Manager  
 `https://github.com/cloudx-xenoss/CloudXiOSAdManagerAdapter`
+- NOTE: Follow the Project Configuration / Troubleshooting steps in the section below for additional setup setups
 
 ## 🛠️ Manual  
-- Navigate to the releases for this repo or open the following link to get the latest release (or whichever release you would like): [Releases](https://github.com/cloudx-xenoss/CloudXiOSAdManagerAdapter/releases)  
-- 📥 Download the `CloudXAdManagerAdapter.xcframework.zip` file from the release  
-- 🗂️ Unzip the download then drag and drop `CloudXAdManagerAdapter.xcframework` into your XCode project
+1. Navigate to the releases for this repo or open the following link to get the latest release (or whichever release you would like): [Releases](https://github.com/cloudx-xenoss/CloudXiOSAdManagerAdapter/releases)  
+2. 📥 Download the `CloudXAdManagerAdapter.xcframework.zip` file from the release  
+3. 🗂️ Unzip the download then drag and drop `CloudXAdManagerAdapter.xcframework` into your XCode project
+4. Follow the Project Configuration / Troubleshooting steps in the section below for additional setup setups
 
-## 🧰 Troubleshooting
+## 🧰 Project Configuration / Troubleshooting
 
 ✅ **1. Linker Flags**  
 Add the following to your project’s Other Linker Flags in Build Settings:  

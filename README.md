@@ -37,7 +37,7 @@ https://github.com/cloudx-xenoss/CloudXiOSAdManagerAdapter
 3. 🗂️ Unzip the download then drag and drop `CloudXAdManagerAdapter.xcframework` into your XCode project
 4. Follow the Project Configuration / Troubleshooting steps in the section below for additional setup setups
 
-## Update your Info.plist
+## 📄 Update your Info.plist
 
 Update your app's `Info.plist` file to add the following:
 

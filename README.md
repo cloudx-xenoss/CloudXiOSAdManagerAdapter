@@ -1,4 +1,4 @@
-# ☁️ CloudXiOSAdManagerAdapter  
+# CloudX Google Ad Manager Adapter
 Google Ad Manager adapter for CloudX Core iOS SDK
 
 ## Prerequisites

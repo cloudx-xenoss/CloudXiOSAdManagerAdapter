@@ -14,7 +14,7 @@ Ad Manager adapter for CloudX SDK is available though [CocoaPods](https://guides
 
 Open your project's `Podfile` and add this line to your app's target
 ```ruby
-pod CloudXAdManagerAdapter
+pod 'CloudXAdManagerAdapter'
 ```
 
 Install the pod from command line using:
